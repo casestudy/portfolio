@@ -34,6 +34,16 @@
     align-items: flex-start;
     margin-top: 2em;
   }
+
+  .about__header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about__intro {
+    align-items: center;
+  }
 }
 
 .about__header {
