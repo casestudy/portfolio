@@ -82,18 +82,16 @@ const Navbar = () => {
             </a>
           </li>
         ) : null}
-
-        <li className='nav__list-item'>
-          <button
-            type='button'
-            onClick={toggleLanguage}
-            className='btn btn--icon nav__lang'
-            aria-label='toggle language'
-          >
-            {language === 'en' ? 'FR' : 'EN'}
-          </button>
-        </li>
       </ul>
+
+      <button
+        type='button'
+        onClick={toggleLanguage}
+        className='btn btn--icon nav__lang'
+        aria-label='toggle language'
+      >
+        {language === 'en' ? 'FR' : 'EN'}
+      </button>
 
       <button
         type='button'
